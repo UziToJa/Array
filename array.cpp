@@ -44,4 +44,18 @@ float calculateAverege(int array[]) {
     return average;
 }
 
+int saveArrayToFile(int array[]){
+    FILE *fptr = NULL;
+    fptr = fopen("array.txt","w");
+    if (fptr == NULL){
+        return 1;
+    }
+
+    for (int i = 0; i < SIZE; ++i){
+        fprintf(fptr, "array[%d] = %d\n",i, array[i]);
+    }
+
+    fclose(fptr);
+    return 0;
+}
 
