@@ -11,8 +11,6 @@ void menu(){
     printf("5. Determine the average value\n");
     printf("6. Save to file\n");
     printf("7. Restore from file\n");
-    printf("8. Delete last number\n");
-    printf("9. Delete first number\n");
     printf("0. Exit\n");
     printf("Select an option: \n\n");
 }
@@ -23,6 +21,7 @@ int main() {
     printf("Simple array\n\n");
 
     int option = 0;
+    float average = calculateAverege(array);
 
     do{
         menu();
@@ -48,18 +47,12 @@ int main() {
                 break;
             }
             case 5 :
-                printf("Average value = %f\n");
+                printf("Average value = %f\n", average);
                 break;
             case 6:
 
                 break;
             case 7 :
-
-                break;
-            case 8 :
-
-                break;
-            case 9 :
 
                 break;
             default:

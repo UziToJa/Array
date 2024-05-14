@@ -35,4 +35,13 @@ int findMinimumValue(int array[]) {
     return min;
 }
 
+float calculateAverege(int array[]) {
+    int sum = 0;
+    for(int i = 0; i < SIZE; ++i){
+        sum += array[i];
+    }
+    float average = (float) sum / SIZE;
+    return average;
+}
+
 
