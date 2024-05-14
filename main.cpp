@@ -57,9 +57,8 @@ int main() {
                     printf("Something went wrong...\n\n");
                 }
                 break;
-                break;
             case 7 :
-
+                displayFromFile(array);
                 break;
             default:
                 printf("Pick the right number\n");
