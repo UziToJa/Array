@@ -4,6 +4,6 @@
 #define SIZE 10
 
 void displayArray(int array[]);
-
+int enterDataIntoArray(int array[]);
 
 #endif //ARRAY_ARRAY_H

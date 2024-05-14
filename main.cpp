@@ -31,7 +31,8 @@ int main() {
             case 0 :
                 break;
             case 1 :
-
+                printf("Entering the values into array\n\n");
+                enterDataIntoArray(array);
                 break;
             case 2 :
                 displayArray(array);
