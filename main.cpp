@@ -38,8 +38,8 @@ int main() {
                 displayArray(array);
                 break;
             case 3 : {
-
-                printf("Minimum value = %d\n");
+                int min = findMinimumValue(array);
+                printf("Minimum value = %d\n", min);
                 break;
             }
             case 4 : {
