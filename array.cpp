@@ -14,3 +14,13 @@ int enterDataIntoArray(int array[]) {
     }
     return 0;
 }
+
+int findMaximumValue(int array[]) {
+    int max = array[0];
+    for (int i = 0; i < SIZE; ++i) {
+        if (array[i] > max){
+            max = array[i];
+        }
+    }
+    return max;
+}

@@ -43,8 +43,8 @@ int main() {
                 break;
             }
             case 4 : {
-
-                printf("Maximum value = %d\n");
+                int max = findMaximumValue(array);
+                printf("Maximum value = %d\n", max);
                 break;
             }
             case 5 :
